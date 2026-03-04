@@ -60,7 +60,7 @@ const skillCategories = [
 
 const techBadges = [
   'PHP', 'Laravel', 'Python', 'Django', 'Java', 'Spring Boot',
-  'JavaScript', 'Angular', 'Bootstrap', 'Flutter', 'Ionic',
+  'JavaScript', 'Next.js', 'Angular', 'Bootstrap', 'Flutter', 'Ionic',
   'MySQL', 'PostgreSQL', 'HTML', 'CSS', 'Git', 'Linux',
   'Photoshop', 'Illustrator', 'REST API', 'SaaS',
 ]

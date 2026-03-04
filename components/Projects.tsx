@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FiExternalLink, FiGithub, FiShoppingBag, FiFileText, FiGlobe, FiShield } from 'react-icons/fi'
+import { FiExternalLink, FiGithub, FiShoppingBag, FiFileText, FiGlobe, FiShield, FiActivity, FiBookOpen } from 'react-icons/fi'
 
 const projects = [
   {
@@ -56,6 +56,32 @@ const projects = [
     iconBg: 'text-orange-400',
     status: 'En ligne',
     statusColor: 'text-orange-400 bg-orange-500/10 border-orange-500/20',
+  },
+  {
+    title: 'GymManager',
+    subtitle: 'SaaS — Gestion Salle de Sport',
+    description:
+      'Application SaaS complète de gestion de salle de sport. Gestion des membres, abonnements, présences, paiements et tableau de bord analytique. Conçu et déployé en production.',
+    tags: ['Laravel', 'MySQL', 'Bootstrap', 'SaaS'],
+    icon: <FiActivity size={22} />,
+    color: 'from-cyan-500/20 to-sky-500/20 border-cyan-500/20',
+    accent: 'from-cyan-500 to-sky-500',
+    iconBg: 'text-cyan-400',
+    status: 'Déployé',
+    statusColor: 'text-cyan-400 bg-cyan-500/10 border-cyan-500/20',
+  },
+  {
+    title: 'CatalogManager',
+    subtitle: 'SaaS — Catalogues en Ligne',
+    description:
+      'Plateforme SaaS de création et gestion de catalogues produits en ligne. Interface moderne pour présenter et gérer des catalogues digitaux. Entièrement conçu et déployé.',
+    tags: ['Laravel', 'Next.js', 'MySQL', 'REST API', 'SaaS'],
+    icon: <FiBookOpen size={22} />,
+    color: 'from-fuchsia-500/20 to-pink-500/20 border-fuchsia-500/20',
+    accent: 'from-fuchsia-500 to-pink-500',
+    iconBg: 'text-fuchsia-400',
+    status: 'Déployé',
+    statusColor: 'text-fuchsia-400 bg-fuchsia-500/10 border-fuchsia-500/20',
   },
 ]
 
@@ -124,7 +150,9 @@ export default function Projects() {
 
               {/* Actions */}
               <div className="flex items-center gap-3 pt-2 border-t border-dark-border/50">
-                <span className="text-xs text-slate-600 font-mono flex-1">// EXPERTIZLAB SOLUTION</span>
+                <span className="text-xs text-slate-600 font-mono flex-1">
+                  {i < 4 ? '// EXPERTIZLAB SOLUTION' : '// PROJET PERSONNEL'}
+                </span>
                 <div className="flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                   <button type="button" className="p-1.5 text-slate-500 hover:text-primary transition-colors" title="Code source (privé)">
                     <FiGithub size={16} />
