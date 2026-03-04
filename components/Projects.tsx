@@ -9,7 +9,7 @@ const projects = [
     title: 'ManagerApp',
     subtitle: 'SaaS — Point de Vente',
     description:
-      'Application SaaS complète de gestion de point de vente pour les entreprises. Gestion des stocks, ventes, facturation et utilisateurs. Architecture scalable et sécurisée.',
+      'Solution SaaS multi-entreprises de gestion de point de vente, conçue pour digitaliser et centraliser l\'activité commerciale. Permet la gestion en temps réel des stocks, des ventes, de la facturation et des droits utilisateurs. Architecture multi-tenant scalable déployée en production chez plusieurs clients.',
     tags: ['Laravel', 'MySQL', 'Angular', 'Bootstrap', 'SaaS'],
     icon: <FiShoppingBag size={22} />,
     color: 'from-indigo-500/20 to-violet-500/20 border-indigo-500/20',
@@ -22,7 +22,7 @@ const projects = [
     title: 'App. Facturation Notariale',
     subtitle: 'Gestion — Facturation',
     description:
-      'Application de gestion de facturation pour office notarial. Génération automatique de factures, suivi des paiements et archivage des dossiers clients.',
+      'Application métier développée pour un office notarial afin d\'automatiser et sécuriser la gestion de facturation. Génère des factures PDF conformes, assure le suivi des paiements clients et l\'archivage numérique des dossiers. Réduit considérablement le temps de traitement administratif.',
     tags: ['Django', 'PostgreSQL', 'Python', 'PDF Generation'],
     icon: <FiFileText size={22} />,
     color: 'from-blue-500/20 to-cyan-500/20 border-blue-500/20',
@@ -35,7 +35,7 @@ const projects = [
     title: 'OpenInnova',
     subtitle: 'Site Web Professionnel',
     description:
-      'Site web d\'entreprise professionnel avec design moderne. Présentation des services, portfolio et formulaire de contact intégré.',
+      'Vitrine digitale moderne pour une entreprise tech, conçue pour asseoir sa crédibilité en ligne et convertir les visiteurs en prospects. Design responsive soigné, présentation claire des services, portfolio intégré et formulaire de contact optimisé pour la génération de leads.',
     tags: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     icon: <FiGlobe size={22} />,
     color: 'from-emerald-500/20 to-teal-500/20 border-emerald-500/20',
@@ -48,7 +48,7 @@ const projects = [
     title: 'Vigi Protect SARL',
     subtitle: 'Site Web Corporate',
     description:
-      'Site web corporate pour entreprise de sécurité. Interface moderne, présentation des services de surveillance et système de demande de devis en ligne.',
+      'Site corporate pour une entreprise de sécurité et surveillance, conçu pour renforcer sa présence professionnelle en ligne. Présentation structurée des services (gardiennage, télésurveillance, convoyage), système de demande de devis en ligne et interface mobile-first pour toucher un maximum de clients.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     icon: <FiShield size={22} />,
     color: 'from-orange-500/20 to-red-500/20 border-orange-500/20',
@@ -61,7 +61,7 @@ const projects = [
     title: 'GymManager',
     subtitle: 'SaaS — Gestion Salle de Sport',
     description:
-      'Application SaaS complète de gestion de salle de sport. Gestion des membres, abonnements, présences, paiements et tableau de bord analytique. Conçu et déployé en production.',
+      'Plateforme SaaS complète pensée pour les gérants de salles de sport afin de piloter leur activité depuis un seul outil. Gestion des membres, abonnements, contrôle des présences, encaissement et tableau de bord analytique. Automatise les tâches répétitives et améliore le suivi client. Entièrement conçu et déployé.',
     tags: ['Laravel', 'MySQL', 'Bootstrap', 'SaaS'],
     icon: <FiActivity size={22} />,
     color: 'from-cyan-500/20 to-sky-500/20 border-cyan-500/20',
@@ -74,7 +74,7 @@ const projects = [
     title: 'CatalogManager',
     subtitle: 'SaaS — Catalogues en Ligne',
     description:
-      'Plateforme SaaS de création et gestion de catalogues produits en ligne. Interface moderne pour présenter et gérer des catalogues digitaux. Entièrement conçu et déployé.',
+      'Plateforme SaaS permettant aux entreprises de créer, personnaliser et partager leurs catalogues produits en ligne sans compétences techniques. Interface d\'administration intuitive, rendu public moderne et performant. Remplace les catalogues PDF statiques par une expérience digitale interactive. Entièrement conçu et déployé.',
     tags: ['Laravel', 'Next.js', 'MySQL', 'REST API', 'SaaS'],
     icon: <FiBookOpen size={22} />,
     color: 'from-fuchsia-500/20 to-pink-500/20 border-fuchsia-500/20',

@@ -47,7 +47,7 @@ export default function Hero() {
 
   const socialLinks = [
     { icon: <FiGithub size={20} />, href: 'https://github.com/simporeelie', label: 'GitHub' },
-    { icon: <FiLinkedin size={20} />, href: 'https://linkedin.com/in/eliesimpore', label: 'LinkedIn' },
+    { icon: <FiLinkedin size={20} />, href: 'https://www.linkedin.com/in/elie-simpore/', label: 'LinkedIn' },
     { icon: <FiMail size={20} />, href: 'mailto:Simporeelie97@gmail.com', label: 'Email' },
   ]
 
