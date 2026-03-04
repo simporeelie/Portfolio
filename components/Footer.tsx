@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             {[
               { icon: <FiGithub size={18} />, href: 'https://github.com/simporeelie', label: 'GitHub' },
-              { icon: <FiLinkedin size={18} />, href: 'https://linkedin.com/in/eliesimpore', label: 'LinkedIn' },
+              { icon: <FiLinkedin size={18} />, href: 'https://www.linkedin.com/in/elie-simpore/', label: 'LinkedIn' },
               { icon: <FiMail size={18} />, href: 'mailto:Simporeelie97@gmail.com', label: 'Email' },
             ].map((link) => (
               <motion.a

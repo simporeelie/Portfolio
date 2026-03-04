@@ -103,7 +103,7 @@ export default function Contact() {
             <div className="flex gap-4">
               {[
                 { icon: <FiGithub size={22} />, href: 'https://github.com/simporeelie', label: 'GitHub' },
-                { icon: <FiLinkedin size={22} />, href: 'https://linkedin.com/in/eliesimpore', label: 'LinkedIn' },
+                { icon: <FiLinkedin size={22} />, href: 'https://www.linkedin.com/in/elie-simpore/', label: 'LinkedIn' },
                 { icon: <FiMail size={22} />, href: 'mailto:Simporeelie97@gmail.com', label: 'Email' },
               ].map((link) => (
                 <motion.a
