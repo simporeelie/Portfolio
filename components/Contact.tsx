@@ -71,10 +71,11 @@ export default function Contact() {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7 }}
           >
-            <h3 className="text-2xl font-bold text-slate-100 mb-2">Restons en contact</h3>
+            <h3 className="text-2xl font-bold text-slate-100 mb-2">Travaillons ensemble</h3>
             <p className="text-slate-300 leading-relaxed mb-8">
-              Je suis actuellement en poste mais toujours ouvert à de nouvelles opportunités,
-              collaborations freelance ou échanges autour du développement web & mobile.
+              Actuellement en poste en tant que Développeur Full Stack, je reste disponible pour
+              des missions freelance, des collaborations techniques ou tout échange professionnel
+              autour du développement web & mobile. N&apos;hésitez pas à me contacter.
             </p>
 
             {/* Contact Info */}
