@@ -47,7 +47,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="section-padding px-4 sm:px-6 lg:px-8 bg-dark-card/30">
+    <section id="contact" className="section-padding sm:px-6 lg:px-8 bg-dark-card/30">
       <div className="max-w-6xl mx-auto" ref={ref}>
         {/* Header */}
         <motion.div

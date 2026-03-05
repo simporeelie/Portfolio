@@ -30,7 +30,7 @@ export default function Experience() {
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true })
 
   return (
-    <section id="experience" className="section-padding px-4 sm:px-6 lg:px-8">
+    <section id="experience" className="section-padding sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto" ref={ref}>
         {/* Header */}
         <motion.div

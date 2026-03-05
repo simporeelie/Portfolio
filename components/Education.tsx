@@ -37,7 +37,7 @@ export default function Education() {
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true })
 
   return (
-    <section id="education" className="section-padding px-4 sm:px-6 lg:px-8">
+    <section id="education" className="section-padding sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto" ref={ref}>
         {/* Header */}
         <motion.div

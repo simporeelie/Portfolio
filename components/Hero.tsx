@@ -58,7 +58,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16"
+      className="relative min-h-screen flex items-center justify-center px-5 sm:px-6 lg:px-8 pt-16"
     >
       {/* Background orbs */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none" />

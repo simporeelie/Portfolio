@@ -33,7 +33,7 @@ export default function About() {
   const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true })
 
   return (
-    <section id="about" className="section-padding px-4 sm:px-6 lg:px-8">
+    <section id="about" className="section-padding sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto" ref={ref}>
         {/* Section Header */}
         <motion.div
